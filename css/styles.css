@@ -122,31 +122,3 @@ nav > ul > li {
     border: 2px solid #000934;
     padding: 8px 18px;
 }
-
-li:hover div {display:table;}
-
-.menu-items {
-	width:fit-content;
-	position: absolute;
-	background:#000934;
-	box-sizing:border-box;
-	display:none;
-    z-index: 1;
-}
-
-.submenu-element-group{
-	display:table-cell;
-	border-right:2px solid #FE6613;
-	box-sizing:border-box;
-}
-
-.submenu-element-group:last-child {border-right:none;}
-.submenu-element-group:first-child {border-left:none;}
-.submenu-title-a:hover {background:none;}
-.submenu-link {color: #FE6613;}
-.submenu-title-a{
-	color:#000934;
-	padding:10px 20px;
-}
-
-.titulo {background:#FE6613;}
